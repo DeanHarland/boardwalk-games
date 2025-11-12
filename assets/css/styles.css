@@ -64,3 +64,37 @@ section{
 #services .card{
     margin-bottom: 1.5rem;
 }
+
+/* Media queries 768px up */
+@media screen and (min-width:768px) {
+    /* make all service cards the same heigh */
+    #services .card-body{
+        min-height: 191px;
+    }
+
+}
+/* Media queries 992px up */
+@media screen and (min-width:992px) {
+    /* make all service cards the same heigh */
+    #services .card-body{
+        min-height: auto;
+    }
+
+}
+
+/* Media queries 1200px up */
+@media screen and (min-width:1200px) {
+    /* make all service cards the same heigh */
+    #services .card-body{
+        min-height: 220px;
+    }
+
+}
+/* Media queries 1400px up */
+@media screen and (min-width:1400px) {
+    /* make all service cards the same heigh */
+    #services .card-body{
+        min-height: 195px;
+    }
+
+}
