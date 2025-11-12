@@ -21,8 +21,16 @@ body{
 h1,h2,h3{
     font-family: var(--secondary-font);
     color:var(--primary-color);
+
+}
+h1,h2{
     text-transform:uppercase;
 }
+h2{
+    margin-bottom: 2rem;
+}
+
+
 
 .sub-heading-color{
     color:var(--highlight-color)
@@ -47,12 +55,12 @@ section{
     font-family: var(--secondary-font);
 }
 
-
-/*  grid visualisation for css testing */
-/* .container, .row{
-    border:2px solid black;
+/* Services */
+#services .card-footer{
+    font-weight: bold;
+    color:var(--highlight-color);
+    background-color: transparent;
 }
-.col-12{
-    border: 2px solid white;
-    background-color: lightgrey;
-} */
+#services .card{
+    margin-bottom: 1.5rem;
+}
