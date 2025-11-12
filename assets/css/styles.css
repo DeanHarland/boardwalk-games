@@ -100,6 +100,19 @@ h2 {
     border: none;
 }
 
+/* Events */
+#student-discount-text{
+    border: 3px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+#event-button{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 /* Footer / contact */
 
 #contact {
